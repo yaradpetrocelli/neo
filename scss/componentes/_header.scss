@@ -1,0 +1,59 @@
+
+
+.img-container { display: flex;
+    background-color:  white;
+    }
+
+
+header{
+    display: block;
+    background-color:  rgb(38, 38, 124);
+    width:100%;
+}
+
+header h1{
+    text-transform: uppercase;
+    text-align: left;
+    width:30%;
+    display:inline-block;
+}
+header nav{
+    text-align: right;
+    display:inline-block;
+    width:60%;
+}
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 1em auto;
+    text-align: center;
+    font-size:large;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color:  rgb(38, 38, 124);
+    color: rgba(4,175,233,255);
+    padding: 0.3em;
+}
+
+header ul li a:hover{
+    border-radius: 10px;
+    border: 1px solid white ;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s ease-out;
+}
+
+
+header ul li a:active{
+    padding: 0.2em;}
+

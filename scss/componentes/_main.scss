@@ -1,0 +1,171 @@
+/*main index*/
+
+main{
+    min-height: 80vh;
+}
+
+.corousel-item {
+    height: 50px;
+    background-color: #777;
+    color: white;
+    position: relative;
+
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.div-principal{
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex-flow: row;
+    align-items: stretch;
+    width: 1200px;
+
+}
+.p-principal{
+
+    font-size: 2.5em;
+    color: rgb(38, 38, 124);
+    text-align: left;
+    margin-bottom: -5px;
+    margin-top: 70px;
+    align-self: center;
+    padding-right: 100px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: archivo;
+   
+
+}
+.p-secundario{
+    font-size: 1.9em;
+    color: rgb(38, 38, 124);
+    text-align: left;
+    align-self: center;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    font-family: archivo;
+    
+}
+
+.img {
+    width: 1000px;
+    display: flex;
+    margin: 20px 0;
+    padding-bottom: 40px;
+}
+
+.neonube{
+    max-width: 100%;
+    object-fit: contain;
+    height:auto;
+    margin-top: 3rem;
+}
+/* whatsapp*/
+.container-whatsapp{
+    display: flex;
+}
+.wa {
+    align-items: flex-end;
+}
+/* main servicio*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows:repeat(4, 150px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+.grid-item:first-child {
+    background:var(--backgroundColor);
+}
+.grid-item:first-child:hover {
+    background: deeppink;
+    animation: ChangeColor 4s;
+
+}
+
+@keyframes ChangeColor {
+    0%{
+        background: radial-gradient(rgb(38, 38, 124), blue, rgb(30, 144, 255));}
+}
+
+.grid-item:nth-child(2){
+    background: var(--backgroundColor);
+}
+.grid-item:nth-child(2):hover{
+    background: palegreen;
+    transition: all 1s;}
+
+.grid-item:nth-child(3) {
+    background: var(--backgroundColor);
+}
+.grid-item:nth-child(3):hover {
+    background: peru;
+    transition: all 1s;
+}
+.grid-item:nth-child(4) {
+    background: var(--backgroundColor);
+}
+.grid-item:nth-child(4):hover {
+    background: palevioletred;
+    transition: all 1s;}
+
+.grid-item:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-item:nth-child(4){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;}
+
+ .grid-item:nth-child(2){
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 5;}
+      
+.grid-item:nth-child(1){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;}
+
+
+
+.nosotros, .ayuda, .servicios{
+color: black; }
+
+.lista-c{
+    color: black; 
+    list-style: none;
+
+}
+.border-contact {
+    border: 1px solid rgb(46, 54, 126);
+    border-radius: 1px;
+}

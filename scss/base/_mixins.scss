@@ -1,0 +1,12 @@
+@mixin prefijos($transformaciones) {
+    transform: $transformaciones;
+}
+
+@mixin prefijoAnimacion ($animaciones){
+    transition: ($animaciones)
+}
+
+a:hover {
+    @include prefijos(0.2s ease-out)
+}
+
