@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaradpetrocelli/neo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaradpetrocelli/neo/issues"
+  },
+  "homepage": "https://github.com/yaradpetrocelli/neo#readme",
   "description": ""
 }
